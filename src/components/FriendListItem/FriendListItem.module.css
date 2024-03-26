@@ -1,0 +1,22 @@
+.friend {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  width: 120px;
+  height: 180px;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: bold;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
