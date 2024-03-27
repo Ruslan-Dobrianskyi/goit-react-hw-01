@@ -6,7 +6,7 @@ import friends from './friends.json';
 import transactions from './transactions.json';
 import 'modern-normalize'
 import './index.css'
-
+import Button from './components/Button/Button';
 
 
 const App = () => {
@@ -21,6 +21,12 @@ const App = () => {
       />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
+      <Button title="RUSS" />
+      <Button title="CUT" />
+      <Button title="NOY" />
+      <Button title="GTER" />
+      
+
     </>
   );
 };
